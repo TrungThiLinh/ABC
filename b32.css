@@ -1,0 +1,50 @@
+body{
+    font-family: Tohoma;
+    font-size: 15px;
+    width: 900px;
+    margin: 0px auto;
+    border: 5px solid red;
+    height: 660px;
+}
+#header{
+    text-align: center;
+    height: 40px;
+    padding-top: 15px;
+    border-bottom: 5px solid red;
+}
+#main #leftcolumn{
+    width: 180px;
+    float: left;
+    border-right: 5px solid red;
+    text-align: center;
+    min-height: 400px;
+    padding-top: 200px;
+    
+}
+#main #rightcolumn{
+    text-align: center;
+    min-height: 400px;
+    padding-top: 200px;
+   
+}
+#main #main1 {
+    width: 520px;
+    float: left;
+    border-right: 5px solid red;
+    text-align: center;
+    min-height: 600px;
+}
+#main #main1 #mainpanel {
+    height: 500px;
+    border-bottom: 5px solid red;
+}
+#pagefooter {
+    border: 5px solid red;
+    clear: left;
+    height: 40px;
+    text-align: center;
+    width: 900px;
+    margin-right: 5s0px;
+    float: left;
+
+}

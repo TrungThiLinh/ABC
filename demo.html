@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo html</title>
+    <style>
+        body{
+            background-color: rgb(113, 113, 217);
+            font-size: 20px;
+        }
+        
+    </style>
+</head>
+<body>
+    <p>Trung Thị Linh</p>
+    <h1>Lớp 62PM2</h1>
+    <hr>
+    <a name = "ID1"></a>
+    <!--Sử dung các heading từ lớn đến bé-->
+    <h1>Linh xinh gái</h1>
+    <h2>Linh xinh gái</h2>
+    <h3>Linh xinh gái</h3>
+    <h4>Linh xinh gái</h4>
+    <h5>Linh xinh gái</h5>
+    <h6>Linh xinh gái</h6>
+    <!--in đậm-->
+    <b>In đậm</b>
+
+    <!--in nghiêng-->
+    <i>In nghiêng</i>
+
+    <!--Gạch chân-->
+    <u>Gạch chân</u>
+    <font size="4" face="linh"><p align="center"> <u>DEMO</u></p>
+    </font>
+    <font size="5" face=“linh1"><p align ='right'>
+        <b><i>Hiệu trưởng</i></b></p></font>
+    <hr>
+    <!--tạo danh sách có thứ tự-->
+    <p>Tạo danh sách có thứ tự</p>
+    <ol>
+        <li>vị trí 1</li>
+        <li>vị trí 2</li>
+        <li>vị trí 3</li>
+    </ol>
+    <hr>
+    <p>Tạo danh sách không có thứ tự</p>
+    <ul>
+        <li>alo1</li>
+        <li>alo2</li>
+        <li>alo3</li>
+    </ul>
+    <hr>
+    <p>Gửi mail-link mail</p>
+    <a href="mailto: ttlinh2002work@gmail.com">Gửi mail cho Linh</a>dẫn tới mail
+    <hr>
+    <p>ví dụ Tạo danh sách</p>
+    <font size="5" face="linh2">
+        Lý do mở ngành:
+        <ol>
+            <li>Phát triển nguồn nhân lực </li>
+            <li>Đội ngũ giáo viên có đủ khả năng</li>
+            <li>về cơ sở vật chất: </li>
+                <ul>
+                    <li>4 phòng máy tính</li>
+                    <li>2 phòng thí nghiệm hóa học</li>
+                </ul>
+        </ol>
+    </font>
+    <hr>
+    <!--Ví dụ về đàu trang-->
+    <a href="#ID1">về đầu trang</a>
+    <hr>
+    <img src="1.jpg" width="300px" height="400px" > 
+    <hr>
+    <font face="Hello Linh"> 
+        Đây là em Linh: 
+        <img src="1.jpg" alt ="Đạt trọc" width ="150" height="130"/> <br>
+        <!--ẩn ảnh vào link-->
+        Kích vào để xem: <br>
+        <a href = "1.jpg"> Elephant </a><br>
+        <a href = "1.jpg"> Crocodiles</a><br>
+        <a href = "1.jpg"> Pinguini</a><br>
+        <a href = "1.jpg">Kangroo</a><br> 
+        Mọi chi tiết xin liên hệ 
+        <a href = "mailto:Moetzoo@yahoo.com"> email </a>
+    </font>
+    <hr>
+    <p>Tạo form</p>
+  
+    <form>
+        <font face="linh2">
+            <h2>Đăng ký người dùng</h2><br>
+            Họ tên:<input type="text" name="hoten" size="20"> <br></br>
+            Giới tính:<input type="radio" name="gioitinh" value="nam">Nam
+                <input type="radio" name="gioitinh" value="nu">Nữ<br></br>
+            Ngày sinh:<input type="text" name="ngay"  size="7">
+                <input type="text" name="thang"  size="7">
+                <input type="text" name="nam"  size="7"><br></br>
+            Trình độ chuyên môn:
+            <select name="trinhdo" size="1">
+                <option value ="tc">Trung cấp</option>
+                <option value ="cd">Cao đẳng</option>
+                <option value ="dh">Đại học</option>
+                <option value ="ths">Trung cấp</option>
+                <option value ="tc">Trung cấp</option>
+            </select>
+            <br></br>
+            Ngoại ngữ:<input type="checkbox" name="ngoaingu[]"  value="Anh">Anh
+                    <input type="checkbox" name="ngoaingu[]"  value="Phap">Pháp
+                    <input type="checkbox" name="ngoaingu[]"  value="Duc">Đức
+                    <input type="checkbox" name="ngoaingu[]"  value="Trung">Trung
+                    <input type="checkbox" name="ngoaingu[]"  value="Khác">Khác
+            <br></br>
+            Email: <input type="text" name="email" size="40"> <br></br>
+            Username: <input type="text" name="username" size="20"><br></br>
+            Password: <input type="password" name="password1" size="20"><br></br>
+            Nhập lại Password: <input type="password" name="password2" size="20"><br></br>
+            Ghi chú:<br>
+            <textarea name="ghichu" cols="60" rows="9"></textarea> <br></br>
+            <input type ="submit" name ="submit" value="Đồng ý"> 
+            <input type ="reset" name ="reset" value="hủy bỏ">
+      
+        </font>
+        <hr>
+        <!--Ví dụ về đàu trang-->
+        <a href="#ID1">về đầu trang</a>
+    </form>
+    <hr>
+    <a href ="basichtml.html">Basic HTML</a><br/>
+    <a href ="format.html">formatting</a><br/>
+    <a href ="color.html">colour</a><br/>
+    <a href="Order&unOrderList.html">order&UnorderList</a><br/>
+    <a href ="FormInput.html">formInput</a><br/>
+    <a href ="InputtingTypes.html">InputtingTypes</a><br/>
+    <a href ="Links.html">Links</a><br/>
+    <a href ="table.html">tables</a><br/>
+
+    <hr>
+    
+            
+</body>
+</html>

@@ -1,0 +1,102 @@
+body{
+    font-family: Tahoma;
+    font-size: 15px;
+    width: 1000px;
+    margin: 0px auto;
+    
+}
+#menu_top{
+    background: #141414;
+    height: 40px;
+}
+#banner {
+    background: rgb(219, 105, 105);
+    width: 1000px;
+    height: 300px;
+}
+#main #left {
+    width: 600px;
+    float: left;
+    min-height: 600px;
+}
+ #main #right {
+    width: 400px;
+    background: rgb(55, 99, 55);
+    float: left;
+    min-height: 600px;
+}
+#footer {
+    background: rgb(14, 11, 11);
+    width: 1000px;
+    height: 100px;
+    text-align: center;
+    clear: left;
+    line-height: 100px;
+    color: white;
+}
+
+#menu_top ul {
+    margin: 0px;
+    padding: 0px;
+
+}
+#menu_top ul li{
+    float: left;
+    list-style: none;
+}
+#menu_top ul li a{
+    text-decoration: none;
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    color: #FFF;
+    padding: 0px 20px 0px 20px;
+    border-right: 1px solid rgb(220, 216, 216);
+}
+#menu_top ul li a.active {
+    background: #1949b5;
+}
+#banner img{
+    width: 1000px;
+    height: 300px;
+
+}
+#main #left ul {
+    margin: 0px;
+    padding: 0px;
+}
+#main #left ul li{
+    list-style: none;
+    clear: left;
+    border-bottom: 2px solid #ccc;
+    float: left;
+    margin-bottom: 20px;
+}
+#main #left ul li img {
+    float: left;
+    margin-right: 10px;
+ 
+}
+#main #left ul li h2 {
+    font-size: 14px;
+}
+#main {
+    margin-top: 10px;
+}
+#main #right .menu_right ul{
+    margin: 0px;
+    padding: 0px;
+}
+#main #right .menu_right ul li{
+    list-style: none;
+}
+#main #right .menu_right h3 {
+    background: blue;
+    height: 40px;
+    margin-top: 0px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 40px;
+    color: white;
+    text-indent: 40px;
+}
